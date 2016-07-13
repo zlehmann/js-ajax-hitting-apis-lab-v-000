@@ -13,7 +13,7 @@ Github's functionality.
 
 The documentation is extensive and well-organized. For instance,
 anything you can do regarding a Github repository will be under the
-[Repositories][repos] section.
+[Repositories][repos] section.\
 
 Each section is broken down by function, and tells you exactly what you
 need to know to request that API endpoint, including any URI parameters
