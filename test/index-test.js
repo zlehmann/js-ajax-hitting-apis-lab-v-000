@@ -82,7 +82,7 @@ describe('index', () => {
         getCommits(el);
         expect(requests.length).toBe(1);
         expect(requests[0].url).toBe(
-          'https://api.github.com/repos/octocat/Spoon-Knife/commits'
+          'https://api.github.com/repos/octocat/test-repo/commits'
         );
       });
     });
