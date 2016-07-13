@@ -7,9 +7,9 @@
 
 ## Introduction
 
-The [GitHub API][api] provides access to a
-lot of interesting and useful data that we can use with `XMLHttpRequest`
-to create our own applications that extend Github's functionality.
+The [GitHub API][api] provides access to a lot of interesting and useful data
+that we can use with `XMLHttpRequest` to create our own applications that extend
+Github's functionality.
 
 The documentation is extensive and well-organized. For instance,
 anything you can do regarding a Github repository will be under the
