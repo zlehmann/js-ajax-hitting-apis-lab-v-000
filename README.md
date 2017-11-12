@@ -50,9 +50,11 @@ function.
 3. Add a link to each repository that calls a `getBranches` function
    when clicked and, when complete, calls a `displayBranches` function
 that fills the `details` div with a list of names of each
-branch of the repository. Gie the link data attributes of `username` and
+branch of the repository. Give the link data attributes of `username` and
 `repository` for use by the `getBranches` function.
 
 ## Resources
 
 - [GitHub API](https://developer.github.com/v3/)
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/javascript-git-hub-api-with-xhr-lab'>GitHub API With XHR Lab</a> on Learn.co and start learning to code for free.</p>
