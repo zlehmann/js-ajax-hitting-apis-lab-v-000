@@ -9,6 +9,7 @@ function getRepositories() {
   xhr.send();
   return false;
 }
+
 function displayRepositories() {
   const repos = JSON.parse(this.responseText);
   const repoList =
@@ -29,6 +30,7 @@ function displayRepositories() {
     '</ul>';
   document.getElementById('repositories').innerHTML = repoList;
 }
+
 function getCommits(el) {
   const repoName = el.dataset.repository;
   const uri =
@@ -38,6 +40,7 @@ function getCommits(el) {
   xhr.open('GET', uri);
   xhr.send();
 }
+
 function displayCommits() {
   const commits = JSON.parse(this.responseText);
   const commitsList = `<ul>${commits
@@ -54,6 +57,7 @@ function displayCommits() {
     .join('')}</ul>`;
   document.getElementById('details').innerHTML = commitsList;
 }
+
 function getBranches(el) {
   const repoName = el.dataset.repository;
   const uri =
@@ -63,6 +67,7 @@ function getBranches(el) {
   xhr.open('GET', uri);
   xhr.send();
 }
+
 function displayBranches() {
   const branches = JSON.parse(this.responseText);
   const branchesList = `<ul>${branches
