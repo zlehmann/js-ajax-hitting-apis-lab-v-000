@@ -48,7 +48,7 @@ describe('index', () => {
     let el;
 
     before(() => {
-      el = { dataset: { repository: 'Spoon-Knife', username: 'octocat' } };
+      el = { dataset: { repository: 'test-repo', username: 'octocat' } };
       xhr = sinon.useFakeXMLHttpRequest();
       window.XMLHttpRequest = xhr;
 
@@ -92,7 +92,7 @@ describe('index', () => {
         getBranches(el);
         expect(requests.length).toBe(1);
         expect(requests[0].url).toBe(
-          'https://api.github.com/repos/octocat/Spoon-Knife/branches'
+          'https://api.github.com/repos/octocat/test-repo/branches'
         );
       });
     });
