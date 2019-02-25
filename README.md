@@ -18,7 +18,7 @@ anything you can do regarding a Github repository will be under the
 Each section is broken down by function, and tells you exactly what you
 need to know to request that API endpoint, including any URI parameters
 (denoted by colons in the parameter, like `/repos/:username`) you'll
-need to provide and an example of the response JSON.
+need to provide an example of the response JSON.
 
 Read through the [overview][v3] section to learn how to interact with the Github
 API. We won't be using any functions that require authentication, so don't worry
