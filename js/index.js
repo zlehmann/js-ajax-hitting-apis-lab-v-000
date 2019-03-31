@@ -14,7 +14,7 @@ function displayRepositories() {
       r =>
         '<li>' +
         r.name +
-        ' - <a href="' + r.archive_url + '">Repo link</a>' +
+        ' - <a href="' + r.url + '">Repo link</a>' +
         ' - <a href="#" onclick="getCommits(this)">Get Commits</a></li>'
     )
     .join('')}</ul>`;
