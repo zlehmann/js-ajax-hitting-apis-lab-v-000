@@ -10,7 +10,7 @@ function showRepositories() {
   var repos = JSON.parse(this.responseText);
   console.log(repos);
   const repoList = `<ul>${repos
-    .map(r => '<li>' + r.name + '</li>')
+    .map(r => '<li>' + r.name + ' - ' + r.archive_url + '</li>')
     .join('')}</ul>`;
   document.getElementById('repositories').innerHTML = repoList;
 }
